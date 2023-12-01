@@ -1,0 +1,65 @@
+.main{
+  background-color: rgb(212, 212, 212);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.cityContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid rgb(185, 185, 185);
+  background-color: rgb(212, 212, 212);
+  padding: 2rem;
+}
+.cityContainer input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  width: 50vw;
+}
+.cityContainer button {
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+.containerWrapper {
+  display: flex;
+}
+.todayContainer {
+  background-color: #3498db;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  text-align: center ;
+}
+.todayContainer h2 {
+  margin-bottom: 0.5rem;
+}
+.todayContainer .weather-icon {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.forecastContainer {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+.forecastDayContainer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 0.5rem;
+  width: 20%;
+  text-align: center;
+}
+.forecastDayContainer .weather-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
